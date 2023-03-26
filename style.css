@@ -266,23 +266,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #005f7f;
 }
-/*responsive voor gsm*/
-@media (min-width: 576px) {
 
-	
-	
-}
-}
-/*responsive voor tablets*/
-@media (min-width: 768px) {
 
-}
-/*responsive voor desktops*/
-@media (min-width: 992px) {
-
-}
-
-/*responsive voor grote desktops*/
-@media (min-width: 1200px) {
-
-}
