@@ -266,3 +266,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #005f7f;
 }
+/*responsive voor gsm*/
+@media (min-width: 576px) {
+.hero {
+	background-image: url(coderen.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+}
+/*responsive voor tablets*/
+@media (min-width: 768px) {
+
+}
+/*responsive voor desktops*/
+@media (min-width: 992px) {
+
+}
+
+/*responsive voor grote desktops*/
+@media (min-width: 1200px) {
+
+}
