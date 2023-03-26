@@ -268,15 +268,8 @@ input[type="submit"]:hover {
 }
 /*responsive voor gsm*/
 @media (min-width: 576px) {
-.hero {
-	background-image: url(coderen.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 80vh;
-	height:50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+	
 	
 }
 }
