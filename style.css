@@ -272,7 +272,8 @@ input[type="submit"]:hover {
 	background-image: url(coderen.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 40vh;
+	height: 80vh;
+	height:50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
