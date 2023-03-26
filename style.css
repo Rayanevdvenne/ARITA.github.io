@@ -61,7 +61,7 @@ nav ul li a:hover {
 	background-image: url(coderen.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 20px;
+	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
