@@ -21,43 +21,59 @@ background-repeat: no-repeat;
 }
 
 .navbar {
-	
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color:	#AE8625;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:    #AE8625;
 }
 
 .logo {
-	font-size: 24px;
-	font-weight: bold;
-	;
-	text-decoration: none;
-	color:	#CBB26A;
-	
+    font-size: 24px;
+    font-weight: bold;
+    ;
+    text-decoration: none;
+    color:    #CBB26A;
+    
 }
 
 nav ul {
-	display: flex;
-	list-style: none;
+    
+    display: flex;
+    list-style: none;
 }
 
 nav ul li {
-	margin-right: 20px;
-	color:	#CBB26A;
-	font-size:1.5em;
+    margin-right: 20px;
+    color:    #CBB26A;
+    font-size:1.5em;
 }
 
 nav ul li a {
-	
-	text-decoration: none;
-	color:	#CBB26A;
+    position:relative;
+    text-decoration: none;
+    color:    #CBB26A;
 }
-
+nav ul li  a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #CBB26A;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+nav a:hover::after {
+  transform: scaleX(1);
+  
+}
 nav ul li a:hover {
-	text-decoration: underline;
+    
+    color: #CBB26A;
+  transform: scale(1.2);
+  text-shadow: none;
 }
-
 .hero {
 	background-image: url(coderen.jpg);
 	background-size: cover;
