@@ -7,12 +7,14 @@
 body {
 	font-family: Arial, sans-serif;
 	color: #333;
+	
 }
 /* opmaak header */
 header {
 	background-color: #000;
 	color: #fff;
 	padding: 20px;
+	
 	color:	#CBB26A;
 	background-image: url(achtergrond.png);
 background-repeat: no-repeat;
@@ -122,13 +124,14 @@ nav ul li a:hover {
 }
 /* diensten */
 .services {
+	
 	padding: 80px 0;
 	text-align: center;
 	background-image: url(achtergrond.png);
 background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color:	black;
+  color:black;
 }
 
 .services h2 {
@@ -143,6 +146,7 @@ background-repeat: no-repeat;
 	justify-content: center;
 	align-items: center;
 	
+	
 }
 .linkterugwebsite{
 text-align:center;
@@ -156,6 +160,7 @@ text-align:center;
 	margin-right: 20px;
 	flex-basis: 300px;
 	background-color:#CBB26A;
+	
 }
 
 .card:last-child {
@@ -171,6 +176,7 @@ text-align:center;
 .card-content h3 {
 	font-size: 24px;
 	margin-bottom: 20px;
+	color:black;
 	
 	
 }
@@ -181,7 +187,7 @@ text-align:center;
 }
 /* over ons */
 .about {
-	padding: 80px 0;
+	padding: 50px 0;
 	text-align: center;
 	background-color: #FDB813;
 	color:#CBB26A;
@@ -193,7 +199,7 @@ background-repeat: no-repeat;
 
 .about h2 {
 	font-size: 36px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .about-content {
@@ -241,51 +247,102 @@ img {
 	/* opmaak van de footer*/
 }
 /*contactpagina*/
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+/* Reset standaard marges en paddings */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  color:	#CBB26A;
+  
+}
+
+.container {
+	border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align:center;
+  background-image: url(achtergrond.png);
+}
+
+.container a {
+   display: inline-block;
+      margin-top: 5px;
+	  margin-bottom: 20px;
+	  color:	#CBB26A;
+	  
 }
 
 h1 {
+  color:	#CBB26A;
   text-align: center;
-  margin-top: 50px;
-}
-
-form {
-  margin: 0 auto;
-  width: 50%;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-}
-
-label {
-  display: block;
-  margin-top: 10px;
-}
-
-input[type="text"], input[type="email"], textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
   margin-bottom: 20px;
 }
 
-input[type="submit"] {
-  background-color: #008CBA;
+.contact-info {
+  margin-bottom: 20px;
+  color:	#CBB26A;
+}
+
+.contact-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color:	#CBB26A;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color:	#CBB26A;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+ color:	#CBB26A;
+}
+
+.contact-form form {
+  display: grid;
+  grid-gap: 10px;
+  color:	#CBB26A;
+}
+
+.contact-form label {
+  font-weight: bold;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5; 
+}
+
+.contact-form input[type="submit"] {
+  background-color: #333;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 10px;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #005f7f;
+.contact-info,
+.contact-form,
+.map-container {
+  margin-top: 20px;
+  
 }
 
-
+.map-container {
+  overflow: hidden;
+  border-radius: 10px;
+}
